@@ -13,7 +13,7 @@ pip install uflash pyserial
 After that, edit the source code, then flash the board:
 
 ```
-uflash sensor_code.py
+uflash captor_code.py
 ```
 
 It is automatically detected and flashed when the command is executed.
