@@ -35,4 +35,4 @@ Finally, if you wish to save the values into a .csv directly in your current fol
 ## Notes
 
 This is a simple homemade driver written for educational purposes.
-It is not optimized and was built because no MicroPython driver was available.
+Although other MicroPython implementations exist, this project includes a minimal custom driver adapted for my Micro:bit setup.
