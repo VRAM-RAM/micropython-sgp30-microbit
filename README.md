@@ -31,3 +31,8 @@ sufficient for the use we make of it.
 Here is the assembly that was made: [vittascience-link](https://fr.vittascience.com/learn/tutorial.php?id=35)
 
 Finally, if you wish to save the values into a .csv directly in your current folder, use the program ```csv_save.py```.
+
+## Notes
+
+This is a simple homemade driver written for educational purposes.
+It is not optimized and was built because no MicroPython driver was available.
