@@ -1,9 +1,15 @@
-# micropython-sgp30-microbit
-Minimal standalone MicroPython SGP30 driver for BBC Micro:bit with serial CSV logging and LCD display.
+# micropython-sgp30-microbit : a minimal SGP30 Driver for MicroPython on BBC Micro:bit
 
+Designed for educational use:
+- simple codebase
+- no external dependencies (except microbit library)
+- easy to modify
+- compatible with LCD displays and serial CSV logging
+
+  
 # Informations :
 
-This code is intended to be imported onto a BBC MicroBIT board, which is connected to an LCD screen and an "SGP30" CO2 sensor, thanks to the Grove shield.
+This code is intended to be imported onto a BBC MicroBIT board, which is connected to an LCD screen and an SGP30 air quality sensor (eCO2 and TVOC), thanks to the Grove shield.
 To flash the MicroBIT board, no matter which text editor you use, first activate a Python environment, then run:
 
 ```
@@ -25,8 +31,7 @@ sudo python3 -m serial.tools.miniterm /dev/ttyACM0 115200
 ```
 
 Note: these commands work on Linux. For Mac, it is pretty much the same thing, and for Windows, it will be possible to use: [microsoft-makecode](https://www.microsoft.com/fr-fr/makecode)
-Regarding the code itself, since the source code for using the sensor was not available, I rewrote a "homemade" driver. It is not perfect but functional and
-sufficient for the use we make of it.
+Regarding the code itself, this project intentionally uses a small custom-written driver to keep the code readable and educational.
 
 Here is the assembly that was made: [vittascience-link](https://fr.vittascience.com/learn/tutorial.php?id=35)
 
