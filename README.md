@@ -1,4 +1,7 @@
 # micropython-sgp30-microbit : a minimal SGP30 Driver for MicroPython on BBC Micro:bit
+![MicroPython](https://img.shields.io/badge/MicroPython-compatible-brightgreen)
+![micro:bit](https://img.shields.io/badge/BBC-microbit-yellow)
+![License MIT](https://img.shields.io/badge/license-MIT-blue)
 
 Designed for educational use:
 - simple codebase
